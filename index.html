@@ -1,0 +1,25 @@
+<body>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+        appId            : 'your-app-id',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v5.0'
+        });
+    };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+                
+    <canvas id="myCanvas" width="1500" height="800" ></canvas>
+    <script src="Flake.js"></script>
+    <script src="app.js"></script>
+</body>
+<style>
+    html, body {
+        overflow: hidden;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+</style>
+
